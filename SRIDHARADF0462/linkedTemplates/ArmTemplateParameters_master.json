@@ -1,0 +1,63 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "SRIDHARADF0462"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"HttpServer1_password": {
+			"value": ""
+		},
+		"sridharLS_sink_password": {
+			"value": ""
+		},
+		"sridharadlssin_accountKey": {
+			"value": ""
+		},
+		"sridharsourcelin_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "sridhardbserver.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "DB-sridhar"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://github.com/varlareddy123/sridhargithub/blob/main/RAW/Sirdhar_practice_data_cleaning.csv"
+		},
+		"HttpServer1_properties_typeProperties_userName": {
+			"value": " varlareddy123"
+		},
+		"sridharLS_sink_properties_typeProperties_server": {
+			"value": "sridhardbserver.database.windows.net"
+		},
+		"sridharLS_sink_properties_typeProperties_database": {
+			"value": "DB-sridhar"
+		},
+		"sridharLS_sink_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"sridharadlssin_properties_typeProperties_url": {
+			"value": "https://sridharstg.dfs.core.windows.net/"
+		},
+		"sridharsourcelin_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"sridharsourcelin_properties_typeProperties_userName": {
+			"value": "varlareddy123"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
